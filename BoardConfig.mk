@@ -18,6 +18,7 @@ LOCAL_PATH := device/xiaomi/mido
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
+USE_LOCAL_GNSSPPS := true
 TARGET_USE_CM_RAMDISK := true
 
 # Architecture
